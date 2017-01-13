@@ -9,7 +9,7 @@ import java.io.PrintWriter;
  * 根据某基准尺寸，生成所有需要适配分辨率的values文件，以px为单位
  * @author aaron
  */
-public class GenerateValueFiles {
+public class AutoPXDimenTool {
 
 	private int baseW;
 	private int baseH;
@@ -28,7 +28,7 @@ public class GenerateValueFiles {
 
 	private String supportStr = SUPPORT_DIMESION;
 
-	public GenerateValueFiles(int baseX, int baseY, String supportStr) {
+	public AutoPXDimenTool(int baseX, int baseY, String supportStr) {
 		this.baseW = baseX;
 		this.baseH = baseY;
 
@@ -163,7 +163,7 @@ public class GenerateValueFiles {
 			System.exit(-1);
 		}
 
-		new GenerateValueFiles(baseW, baseH, addition).generate();
+		new AutoPXDimenTool(baseW, baseH, addition).generate();
 	}
 
 }

@@ -15,7 +15,7 @@ import java.io.PrintWriter;
  * 选择Nexus S hdpi 480*800系列sw320作为基本布图，sw 的值计算公式：dp=px/倍数 320=480/1.5
  * px = dp * (dpi / 160)
  */
-public class AutoDimenTool {
+public class AutoDPDimenTool {
     public static final int[] sizes = {300, 320, 340, 360, 370, 380, 400, 420, 460, 480, 500, 520, 600, 720, 800, 820};
     public static boolean isBefore13 = true;//是否兼容V13之前的版本，因为V13之前的版本不认识sw符号的资源
     public static String pathBegin = "./app/src/main/res/values-sw";

@@ -1,0 +1,102 @@
+<resources>
+    <!--设计规范：
+    （1）遵循8dp栅格化设计，一切距离、尺寸都应该是8dp的整数倍
+        所有可操作元素最小点击区域尺寸：48dp X 48dp
+        顶部状态栏高度：24dp
+        Appbar最小高度：56dp
+        底部导航栏高度：48dp
+        悬浮按钮尺寸：56x56dp/40x40dp
+        用户头像尺寸：64x64dp/40x40dp
+        小图标点击区域：48x48dp
+        侧边抽屉到屏幕右边的距离：56dp
+        卡片间距：8dp
+        分隔线上下留白：8dp
+        大多元素的留白距离：16dp
+        屏幕左右对齐基线：16dp
+        文字左侧对齐基线：72dp
+     （2）字体固定几种尺寸
+        12sp 小字提示
+        14sp（桌面端13sp） 正文/按钮文字
+        16sp（桌面端15sp） 小标题
+        20sp Appbar文字
+        24sp 大标题
+        34sp/45sp/56sp/112sp 超大号文字
+      (3)
+        名称	    像素密度范围	    启动图片大小   dp与px关系   分辨率
+        mdpi	120dp~160dpi	48×48px       1dp=1px     480*320
+        hdpi	160dp~240dpi	72×72px       1dp=1.5px   800*480
+        xhdpi	240dp~320dpi 	96×96px       1dp=2px     1280*720P
+        xxhdpi	320dp~480dpi	144×144px     1dp=3px     1920*1080P
+        xxxhdpi	480dp~640dpi	192×192px     1dp=4px     2k的屏幕的适配
+    -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+
+    <!--对话框内容距离边的间距-->
+    <dimen name="dialog_content_margin">23dp</dimen>
+    <!--对话框按钮栏高度-->
+    <dimen name="dialog_buttonbar_height">45dp</dimen>
+    <!--对话框按钮高度-->
+    <dimen name="dialog_button_height">34dp</dimen>
+    <!--对话框按钮栏到底部的间距-->
+    <dimen name="dialog_buttonbar_to_bottom">8dp</dimen>
+    <!--对话框内容到按钮栏的间距-->
+    <dimen name="dialog_content_to_buttonbar">15dp</dimen>
+
+    <!-- 一般间距 8的倍数-->
+    <dimen name="layout_margin_8">8dp</dimen>
+    <dimen name="layout_margin_16">15dp</dimen>
+    <dimen name="layout_margin_24">23dp</dimen>
+    <dimen name="layout_margin_36">34dp</dimen>
+    <dimen name="layout_margin_48">45dp</dimen>
+    <dimen name="layout_margin_56">53dp</dimen>
+    <dimen name="layout_margin_72">68dp</dimen>
+
+    <!--顶部状态栏高度-->
+    <dimen name="statebar_height">23dp</dimen>
+    <!--Appbar最小高度-->
+    <dimen name="appbar_height">53dp</dimen>
+    <!--底部导航栏高度-->
+    <dimen name="guidebar_height">45dp</dimen>
+    <!--悬浮按钮高度-->
+    <dimen name="float_button_height">53dp</dimen>
+    <!--悬浮按钮高度2-->
+    <dimen name="float_button_height2">38dp</dimen>
+    <!--用户头像高度-->
+    <dimen name="user_head_height">60dp</dimen>
+    <!--用户头像高度2-->
+    <dimen name="user_head_height2">38dp</dimen>
+    <!--小图标可点击区域高度-->
+    <dimen name="small_click_icon_height">45dp</dimen>
+    <!--侧边抽屉到右边的距离-->
+    <dimen name="slidebar_margin_right">53dp</dimen>
+    <!--卡片间距-->
+    <dimen name="card_margin">8dp</dimen>
+    <!--分割线上下间距-->
+    <dimen name="line_margin">8dp</dimen>
+    <!--屏幕左右基线-->
+    <dimen name="left_right_margin">15dp</dimen>
+    <!--文字左侧基线间距-->
+    <dimen name="text_margin_left">68dp</dimen>
+
+    <!--字体-->
+    <!--小字提示-->
+    <dimen name="textsize_12">11sp</dimen>
+    <!--正文/按钮文字-->
+    <dimen name="textsize_14">13sp</dimen>
+    <!--小标题-->
+    <dimen name="textsize_16">15sp</dimen>
+    <!--Appbar文字-->
+    <dimen name="textsize_20">19sp</dimen>
+    <!--大标题-->
+    <dimen name="textsize_24">23sp</dimen>
+    <!--超大号字体-->
+    <dimen name="textsize_34">32sp</dimen>
+    <dimen name="textsize_45">42sp</dimen>
+    <dimen name="textsize_56">53sp</dimen>
+    <dimen name="textsize_112">105sp</dimen>
+
+</resources>
+
+
